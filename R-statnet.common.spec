@@ -4,7 +4,7 @@
 #
 Name     : R-statnet.common
 Version  : 4.2.0
-Release  : 19
+Release  : 20
 URL      : https://cran.r-project.org/src/contrib/statnet.common_4.2.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/statnet.common_4.2.0.tar.gz
 Summary  : Common R Scripts and Utilities Used by the Statnet Project
@@ -33,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552933958
+export SOURCE_DATE_EPOCH=1552953088
 
 %install
-export SOURCE_DATE_EPOCH=1552933958
+export SOURCE_DATE_EPOCH=1552953088
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
