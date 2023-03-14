@@ -4,7 +4,7 @@
 #
 Name     : R-statnet.common
 Version  : 4.8.0
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/statnet.common_4.8.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/statnet.common_4.8.0.tar.gz
 Summary  : Common R Scripts and Utilities Used by the Statnet Project
@@ -14,9 +14,6 @@ Requires: R-statnet.common-lib = %{version}-%{release}
 Requires: R-coda
 BuildRequires : R-coda
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 No detailed description available
@@ -38,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1674667736
+export SOURCE_DATE_EPOCH=1678831037
 
 %install
-export SOURCE_DATE_EPOCH=1674667736
+export SOURCE_DATE_EPOCH=1678831037
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
