@@ -4,7 +4,7 @@
 #
 Name     : R-statnet.common
 Version  : 4.8.0
-Release  : 51
+Release  : 52
 URL      : https://cran.r-project.org/src/contrib/statnet.common_4.8.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/statnet.common_4.8.0.tar.gz
 Summary  : Common R Scripts and Utilities Used by the Statnet Project
